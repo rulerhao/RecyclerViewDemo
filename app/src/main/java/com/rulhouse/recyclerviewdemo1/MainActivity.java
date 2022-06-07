@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         addButton = findViewById(R.id.add_measurement);
-        addButton.setOnClickListener(listener);
+        addButton.setOnClickListener(listener);;
 
         adapter = new MeasurementsAdapter();
 
